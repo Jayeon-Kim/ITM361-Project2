@@ -1,7 +1,7 @@
 html {
 		min-width : 2000px;
 }
-.link{
+    .link{
 		overflow: hidden;
 		background-color: #333;
 		width: 100%;
@@ -9,7 +9,7 @@ html {
 		position: static;
 }
 
-.link ul{
+    .link ul{
 		margin-left:33%; 
 		margin-right:33%; 
 	}
@@ -20,7 +20,7 @@ html {
 		text-align: center;
 		padding:14px 38px; 
 		text-decoration: none;
-		float: center;
+		float: left;
 	}
 
 	.link ul li a:hover:not(.active) {
