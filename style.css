@@ -23,12 +23,8 @@ html {
 		float: left;
 	}
 
-	.link a:hover:not(.active) {
+	.link a:hover{
 		background-color: #111;
-	}
-
-	.link.active {
-		background-color: #4CAF50;
 	}
 	
 	.header {
