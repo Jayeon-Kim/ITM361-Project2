@@ -1,19 +1,23 @@
 html {
 		min-width : 2000px;
 }
-.link ul{
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
+.link{
 		overflow: hidden;
 		background-color: #333;
-		position: fixed;
-		top: 0;
 		width: 100%;
+		top: 0;
+		position: static;
+}
+
+.link ul{
+		list-style-type: none;
+		margin-left:33%; 
+		margin-right:33%; 
+		padding: 0;	
 	}
 
 	.link li {
-		float: left;
+		float: center;
 	}
 
 	.link li a {
