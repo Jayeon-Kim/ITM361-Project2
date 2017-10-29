@@ -7,14 +7,14 @@ html {
 		width: 100%;
 		top: 0px;
 		position: static;
-}
+	}
 
     .link ul{
 		margin-left:33%; 
 		margin-right:33%; 
 	}
 
-	.link ul li a {
+	.link ul li a{
 		display: block;
 		color: white;
 		text-align: center;
@@ -23,7 +23,7 @@ html {
 		float: left;
 	}
 
-	.link ul li a:hover:not(.active) {
+	.link a:hover:not(.active) {
 		background-color: #111;
 	}
 
