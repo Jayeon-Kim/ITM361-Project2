@@ -5,7 +5,7 @@ html {
 		overflow: hidden;
 		background-color: #333;
 		width: 100%;
-		top: 0;
+		top: 0px;
 		position: static;
 }
 
@@ -14,7 +14,7 @@ html {
 		margin-right:33%; 
 	}
 
-	.link li a {
+	.link ul li a {
 		display: block;
 		color: white;
 		text-align: center;
@@ -23,7 +23,7 @@ html {
 		float: center;
 	}
 
-	.link li a:hover:not(.active) {
+	.link ul li a:hover:not(.active) {
 		background-color: #111;
 	}
 
