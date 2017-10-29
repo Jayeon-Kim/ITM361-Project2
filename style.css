@@ -10,22 +10,17 @@ html {
 }
 
 .link ul{
-		list-style-type: none;
 		margin-left:33%; 
 		margin-right:33%; 
-		padding: 0;	
-	}
-
-	.link li {
-		float: center;
 	}
 
 	.link li a {
 		display: block;
 		color: white;
 		text-align: center;
-		padding: 20px;
+		padding:14px 38px; 
 		text-decoration: none;
+		float: center;
 	}
 
 	.link li a:hover:not(.active) {
