@@ -2,6 +2,12 @@ html {
 		min-width : 2000px;
 }
     .link{
+		margin: 0; 
+ 	padding: 0; 
+	border: 0; 
+ 	font-size: 100%; 
+ 	font: inherit; 
+ 	vertical-align: baseline; 
 		overflow: hidden;
 		background-color: #333;
 		width: 100%;
@@ -80,3 +86,4 @@ p {
 div.photo img  {
     border-radius: 16px;
 } 
+    
