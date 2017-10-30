@@ -1,37 +1,42 @@
-html {
-		min-width : 2000px;
+  html {
+    min-width : 2000px;
+  }
+  .link{
+   margin: 0; 
+   padding: 0; 
+   border: 0; 
+   font-size: 100%; 
+   font: inherit; 
+   vertical-align: baseline; 
+  }
+	
+  .link ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	}
+
+  .link li {
+    float: center;
+	}
+
+  .link li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
+  .link li a:hover:not(.active) {
+    background-color: #111;
+	}
+
+  .active {
+    background-color: #4CAF50;
 }
-    .link{
-		margin: 0; 
- 	padding: 0; 
-	border: 0; 
- 	font-size: 100%; 
- 	font: inherit; 
- 	vertical-align: baseline; 
-		overflow: hidden;
-		background-color: #333;
-		width: 100%;
-		top: 0px;
-		position: static;
-	}
-
-    .link ul{
-		margin-left:33%; 
-		margin-right:33%; 
-	}
-
-	.link li a{
-		display: block;
-		color: white;
-		text-align: center;
-		padding:14px 38px; 
-		text-decoration: none;
-		float: left;
-	}
-
-	.link a:hover{
-		background-color: #111;
-	}
 	
 	.header {
     background-color: #f1f1f1;
