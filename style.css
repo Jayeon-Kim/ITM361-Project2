@@ -1,3 +1,4 @@
+/* CSS reset */
 /* v2.0 | 20110126 
    http://meyerweb.com/eric/tools/css/reset/  
    License: none (public domain) 
@@ -43,6 +44,8 @@ table {
   border-collapse: collapse; 
   border-spacing: 0; 
  } 
+
+/*CSS Style*/
 .link { 
   overflow:hidden; 
   background-color: #333;
