@@ -48,11 +48,11 @@ table {
   background-color: #333;
   width:100%; 
   top:0px; 
-  position:static; 
+  position:static;  
  } 
 .link ul{ 
   margin-left:33%; 
-  margin-right:33%; 
+  margin-right:33%;
  } 
 .link ul li a{ 
   text-decoration:none; 
